@@ -1,7 +1,7 @@
 {
   "name": "modern-site",
   "private": true,
-  "homepage": "https://github.com/mohammadhares/modern-site",
+  "homepage": "https://github.com/mohammadhares/modern-site/tree/master/modern-site",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
