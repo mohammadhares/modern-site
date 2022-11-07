@@ -5,13 +5,13 @@ import {Navbar, Business , Hero , Stats , Billing , CardDeal, Testimonial , Clie
 const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.paddingX} ${styles.flexCenter} sticky top-0 z-30 stick bg-primary`}>
         <div className={`${styles.boxWidth}`}>
             <Navbar />
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.flexStart} mt-[50px]`}>
         <div className={`${styles.boxWidth}`}>
            <Hero />
         </div>
